@@ -11,9 +11,17 @@ h1{
 }
 input[type="submit"]{
     background-color: green;
-    border-radius: 2px;
+    border-radius: 30px;
 }
 input[type="reset"]{
     background-color: green;
-    border-radius: 2px;
+    border-radius: 30px;
+}
+input[type="submit"]:hover{
+    background-color: red;
+    border-radius: 30px;
+}
+input[type="reset"]:hover{
+    background-color: red;
+    border-radius: 30px;
 }
