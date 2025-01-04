@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is Registration form</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <h1>This is Registration form</h1>
+    <p>Please filup this form and take your correct information</p>
+    <hr>
+    <form>
+        <div class="dash">
+            <input type="text" placeholder="Your name">
+        </div><br>
+        <div class="dash">
+            <input type="text" placeholder="Email address or phone number"
+        </div> <br><br>
+        <div class="dash">
+            <input type="password" placeholder="Password">
+        </div><br>
+        <div class="optional">
+            <label for="gender">Gender:</label>
+            <input type="radio" value="male" name="gender" id="gender">Male
+            <input type="radio" value="female" name="gender" id="gender">Female
+        </div><br>
+        <div class="optional">
+            <label for="religion">Religion:</label>
+            <input type="checkbox" value="islam" name="religion" id="religion">Islam
+            <input type="checkbox" value="hindu" name="religion" id="religion">Hindu
+        </div><br>
+        <div>
+            <label for="dob">Date of birth:</label>
+            <input type="date" name="dof" id="dof">
+        </div><br>
+        <div class="optional">
+            <label for="division">Division:</label>
+            <select>
+                <option>Barishal</option>
+                <option>Dhaka</option>
+                <option>Sylhet</option>
+                <option>Comilla</option>
+                <option>Rajshahi</option>
+                <option>Rangpur</option>
+                <option>Khulna</option>
+            </select>
+        </div><br>
+        <div class="optional">
+            <label for="division">Department:</label>
+            <select>
+                <option>Physics</option>
+                <option>Chemistry</option>
+                <option>Higer-math</option>
+                <option>Zoology</option>
+                <option>Accounting</option>
+                <option>Finance</option>
+                <option>Marketing</option>
+                <option>Bangla</option>
+                <option>English</option>
+            </select>
+        </div><br>
+        <div>
+            <input type="file">
+        </div><br>
+        <div>
+            <label for="massage">Massage:</label>
+            <input type="massage" placeholder="Write your massage...">
+        </div><br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </div>
+        
+    </form>
+</body>
+</html>

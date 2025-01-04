@@ -1,0 +1,19 @@
+/* body{
+    background-color: rgb(6, 6, 32); */
+p{
+    color: burlywood;
+}
+h1{
+    color:darkviolet;
+    background-color:aquamarine;
+    text-align: center;
+    border-radius: 60px 60px 60px 60px;
+}
+input[type="submit"]{
+    background-color: green;
+    border-radius: 2px;
+}
+input[type="reset"]{
+    background-color: green;
+    border-radius: 2px;
+}
